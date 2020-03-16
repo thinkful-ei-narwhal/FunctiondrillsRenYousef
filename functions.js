@@ -1,6 +1,6 @@
 function createGreeting () {
-  console.log('Sup, my name is yousef and i am 26 years old')
+  return 'Sup, my name is yousef and i am 26 years old'
 }
 
-createGreeting()
-
+let greeting1 = createGreeting()
+console.log(greeting1)
