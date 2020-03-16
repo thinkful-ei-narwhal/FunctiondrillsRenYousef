@@ -6,7 +6,7 @@ function createGreeting (name, age) {
     if (typeof name !== 'string' || typeof age !== 'number'){
         throw new Error 
     }
-  const yearOfBirth = 2020 - age
+  const yob = 2020 - age
   return `Sup, my name is ${name} and i am 26 years old. 
   I was born in ${yearOfBirth}`
 
